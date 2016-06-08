@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `AddImportPhys`(
+CREATE  PROCEDURE `AddImportPhys`(
 /*------------------ contact info - main & home address */
 name0 varchar(127), /*-- mandatory*/
 title varchar(63),

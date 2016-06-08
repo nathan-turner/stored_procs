@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `GetReferenceReq3`(
+CREATE  PROCEDURE `GetReferenceReq3`(
  phid int,
  ctrid decimal
 )

@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `DelASource`(
+CREATE  PROCEDURE `DelASource`(
 id int
 )
     MODIFIES SQL DATA

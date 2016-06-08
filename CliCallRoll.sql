@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `CliCallRoll`(empid int)
+CREATE  PROCEDURE `CliCallRoll`(empid int)
     MODIFIES SQL DATA
 begin
 	declare trgid int;

@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `AddImportNurse`(
+CREATE  PROCEDURE `AddImportNurse`(
 /*------------------ contact info - main & home address */
 name0 varchar(127), /*-- mandatory*/
 title varchar(63),

@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `DataEntryReport`(
+CREATE  PROCEDURE `DataEntryReport`(
 d1 datetime, d2 datetime, empid int
 )
     READS SQL DATA

@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `GetDashBoard`(
+CREATE  PROCEDURE `GetDashBoard`(
  d1 datetime,  d2 datetime
 )
     READS SQL DATA

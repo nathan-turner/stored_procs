@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `GetCtrStatsRpt`(
+CREATE  PROCEDURE `GetCtrStatsRpt`(
  empid int,
  startd datetime,
  endd datetime

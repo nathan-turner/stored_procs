@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `HotDocsReport`(
+CREATE  PROCEDURE `HotDocsReport`(
  date1 datetime,
  date2 datetime,
 sort varchar(20)

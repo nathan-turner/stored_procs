@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `CliCallSchedule`()
+CREATE  PROCEDURE `CliCallSchedule`()
     MODIFIES SQL DATA
 begin
 	declare empid,target,cliid int;

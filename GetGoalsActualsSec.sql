@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `GetGoalsActualsSec`(
+CREATE  PROCEDURE `GetGoalsActualsSec`(
  d1 datetime,  d2 datetime
 )
     READS SQL DATA

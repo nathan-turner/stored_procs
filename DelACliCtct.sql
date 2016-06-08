@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `DelACliCtct`(
+CREATE  PROCEDURE `DelACliCtct`(
 typ tinyint, id int
 )
     MODIFIES SQL DATA

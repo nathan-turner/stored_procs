@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `AddACall`(ext char(3),
+CREATE  PROCEDURE `AddACall`(ext char(3),
 date0 datetime, numin int, numout int, timein int, timeout int
 )
     MODIFIES SQL DATA

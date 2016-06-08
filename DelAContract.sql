@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `DelAContract`(
+CREATE  PROCEDURE `DelAContract`(
 id decimal
 )
     MODIFIES SQL DATA

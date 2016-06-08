@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `addAFuzion`(
+CREATE  PROCEDURE `addAFuzion`(
 cid int,
 fact char(10),
 fud datetime,

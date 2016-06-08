@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `AddAClientNoId`(
+CREATE  PROCEDURE `AddAClientNoId`(
 /*------------------ contact info - main & home address */
 name0 varchar(127), /*-- mandatory */
 title varchar(63), /*-- additional info. Phone notes */

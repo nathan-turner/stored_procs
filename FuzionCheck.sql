@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `FuzionCheck`(
+CREATE  PROCEDURE `FuzionCheck`(
 phid int,
 uname char(32)
 )

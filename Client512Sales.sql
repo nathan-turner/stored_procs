@@ -1,5 +1,5 @@
 DELIMITER $$
-CREATE DEFINER=`phgadmin`@`%` PROCEDURE `Client512Sales`(
+CREATE  PROCEDURE `Client512Sales`(
 cli_id int,
 emp_id int,
 step tinyint,
